@@ -6,8 +6,8 @@
 
     ubuntu_version <- gsub(x = release, pattern = ".*Codename: ([a-zA-Z]*)$", replacement = "\\1")
 
-    if(ubuntu_version == "xenial") {
-      INLA:::inla.dynload.workaround()
-    }
+    ## if(ubuntu_version == "xenial") {
+    ##   INLA:::inla.dynload.workaround()
+    ## }
   }
 }
